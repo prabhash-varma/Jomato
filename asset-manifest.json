@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Jomato/static/css/main.5133e8ac.css",
+    "main.js": "/Jomato/static/js/main.d073fb95.js",
+    "static/media/homelogo.png": "/Jomato/static/media/homelogo.e3ef74be66b8a37b4de8.png",
+    "static/media/img1.jpg": "/Jomato/static/media/img1.df52770561dbe45b0024.jpg",
+    "static/media/jomatologo.jpeg": "/Jomato/static/media/jomatologo.5755b7b7775c3c0b2596.jpeg",
+    "static/media/quickdelivery.png": "/Jomato/static/media/quickdelivery.3abd4be803c24cc148d4.png",
+    "static/media/superdinein.png": "/Jomato/static/media/superdinein.09f029afef81fe1191bb.png",
+    "static/media/Rawmeat.png": "/Jomato/static/media/Rawmeat.29b0f66c23bbd6f45070.png",
+    "static/media/Pizza.png": "/Jomato/static/media/Pizza.a3e1c2ffae399bb7d2ef.png",
+    "index.html": "/Jomato/index.html",
+    "main.5133e8ac.css.map": "/Jomato/static/css/main.5133e8ac.css.map",
+    "main.d073fb95.js.map": "/Jomato/static/js/main.d073fb95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5133e8ac.css",
+    "static/js/main.d073fb95.js"
+  ]
+}
