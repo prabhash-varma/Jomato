@@ -35,7 +35,7 @@ function App() {
           <Route path="/Jomato/cart" element={<Cart/>}/>
           <Route path="/Jomato/foods" element={<Foods/>}/>
           <Route path="/Jomato/contact" element={<Contact/>}/>
-          <Route path="/Jamato/orders" element={<Orders/>}/>
+          <Route path="/Jomato/orders" element={<Orders/>}/>
         </Routes>
       </BrowserRouter>
       </store.Provider>
