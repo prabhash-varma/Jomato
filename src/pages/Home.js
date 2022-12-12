@@ -61,10 +61,10 @@ function Home() {
           <div style={{display:"flex",flexDirection:"row",justifyContent:"flex-start",marginTop:"70px"}}>
           <button style={{marginRight:"20px"}} type="button" class="btn btn-danger" id="ordernow-btn"
      onClick={()=>{
-            navigate("/cart")
+            navigate("/Jomato/cart")
           }} >Order now {'>'} </button>
           <button type="button" class="btn btn-light" id="seeallfoods-btn" style={{border:"1px solid #cb202d"}} onClick={()=>{
-            navigate("/foods")
+            navigate("/Jomato/foods")
           }} >See all foods</button>
           </div>
           

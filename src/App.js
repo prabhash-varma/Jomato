@@ -31,11 +31,11 @@ function App() {
       <store.Provider value={{cartItems,setCartItems,orderslist,setOrderslist}}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/cart" element={<Cart/>}/>
-          <Route path="/foods" element={<Foods/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/orders" element={<Orders/>}/>
+          <Route path="/Jomato" element={<Home/>}/>
+          <Route path="/Jomato/cart" element={<Cart/>}/>
+          <Route path="/Jomato/foods" element={<Foods/>}/>
+          <Route path="/Jomato/contact" element={<Contact/>}/>
+          <Route path="/Jamato/orders" element={<Orders/>}/>
         </Routes>
       </BrowserRouter>
       </store.Provider>

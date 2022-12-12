@@ -95,7 +95,7 @@ function Cart() {
 
       console.log(orderslist);
       alert("Ordered Successfully");
-      navigate("/orders")
+      navigate("/Jomato/orders")
     }
   }
 
