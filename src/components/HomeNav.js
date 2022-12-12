@@ -21,26 +21,26 @@ function HomeNav() {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul style={{marginRight:"70px",marginTop:"10px"}} className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link to="/" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Home</Link>
+          <Link to="/Jomato" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Home</Link>
          
         </li>
 
 
         <li className="nav-item">
-        <Link to="/foods" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Foods</Link>
+        <Link to="/Jomato/foods" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Foods</Link>
         </li>
         <li className="nav-item">
-        <Link to="/contact" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Contact</Link>
+        <Link to="/Jomato/contact" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Contact</Link>
         </li>
 
         {/* <li className="nav-item">
         <Link to="/cart" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Cart</Link>
         </li> */}
         <li className="nav-item">
-        <Link to="/orders" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Orders</Link>
+        <Link to="/Jomato/orders" className="nav-link active" aria-current="page" style={{color:"white",fontSize:"20px",fontFamily:"fantasy",fontSize:"18px"}}>Orders</Link>
         </li>
         <li className="nav-item">
-        <Link to="/cart"><a className="nav-link active position-relative" > <i  style={{marginRight:"5px",fontSize:"23px",color:"white"}} class="fa-solid fa-cart-shopping"></i> <span  style={{color:"white" ,fontSize:"15px",backgroundColor:"rgba(255,103,108.977"}} class=" top-0 start-100 translate-middle badge rounded-circle">
+        <Link to="/Jomato/cart"><a className="nav-link active position-relative" > <i  style={{marginRight:"5px",fontSize:"23px",color:"white"}} class="fa-solid fa-cart-shopping"></i> <span  style={{color:"white" ,fontSize:"15px",backgroundColor:"rgba(255,103,108.977"}} class=" top-0 start-100 translate-middle badge rounded-circle">
     {cartItems.length}
 
   </span>

@@ -32,11 +32,11 @@ function Footer() {
         <div style={{marginTop:"30px"}}>
             <h3>Useful links</h3>
             <br></br>
-            <p style={{cursor:"pointer"}} onClick={()=> navigate("/")}>  Home</p>
-            <p style={{cursor:"pointer"}} onClick={()=>navigate("/foods")}>Menu</p>
+            <p style={{cursor:"pointer"}} onClick={()=> navigate("/Jomato")}>  Home</p>
+            <p style={{cursor:"pointer"}} onClick={()=>navigate("/Jomato/foods")}>Menu</p>
             {/* <p style={{cursor:"pointer"}}>Contact</p> */}
-            <p style={{cursor:"pointer"}} onClick={()=>navigate("/orders")}>Orders</p>
-            <p style={{cursor:"pointer"}} onClick={()=>navigate("/cart")}>Cart</p>
+            <p style={{cursor:"pointer"}} onClick={()=>navigate("/Jomato/orders")}>Orders</p>
+            <p style={{cursor:"pointer"}} onClick={()=>navigate("/Jomato/cart")}>Cart</p>
 
         </div>
 
